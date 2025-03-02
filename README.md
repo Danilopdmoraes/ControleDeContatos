@@ -1,4 +1,6 @@
 # ControleDeContatos
+créditos:
+https://www.youtube.com/playlist?list=PLJ0IKu7KZpCQKdwRbU7HfXW3raImmghWZ
 
 ## Aula 1
 __Criação do projeto ASP NET MVC__
