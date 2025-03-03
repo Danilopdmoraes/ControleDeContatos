@@ -1,4 +1,6 @@
 # ControleDeContatos
+créditos:
+https://www.youtube.com/playlist?list=PLJ0IKu7KZpCQKdwRbU7HfXW3raImmghWZ
 
 ## Aula 1
 __Criação do projeto ASP NET MVC__
@@ -14,10 +16,10 @@ __Criação do projeto ASP NET MVC__
 * migrations
 * até agora, foi feito apenas o "esqueleto" de tudo
 
-instalados os pacotes NuGet:
-Microsoft.EntityFrameworkCore
-Microsoft.EntityFrameworkCore.Design
-Microsoft.EntityFrameworkCore.Tools
-Microsoft.EntityFrameworkCore.SqlServer
+**instalados os pacotes NuGet:**
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.Design
+- Microsoft.EntityFrameworkCore.Tools
+- Microsoft.EntityFrameworkCore.SqlServer
 
 *** OBS: é necessário ter o MSSQL Server instalado na máquina ***
