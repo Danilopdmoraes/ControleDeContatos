@@ -1,4 +1,5 @@
 using ControleDeContatos.Data;
+using ControleDeContatos.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 // adicionando Entity Framework com MSSQLS
 builder.Services.AddEntityFrameworkSqlServer()
     .AddDbContext<BancoContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DataBase")));
+
+// Injeção de dependência (?????)
+builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
