@@ -1,4 +1,11 @@
+using ControleDeContatos.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// adicionando Entity Framework com MSSQLS
+builder.Services.AddEntityFrameworkSqlServer()
+    .AddDbContext<BancoContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DataBase")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
