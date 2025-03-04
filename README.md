@@ -23,3 +23,9 @@ __Criação do projeto ASP NET MVC__
 - Microsoft.EntityFrameworkCore.SqlServer
 
 *** OBS: é necessário ter o MSSQL Server instalado na máquina ***
+
+**Foram adicionados:**
+- Data/BancoContext.cs
+- "ConnectionStrings : {}" em appsettings.json
+- no package manager console foi executada a linha: "Add-Migration CriandoTabelaContatos -Context BancoContext" criou a Migration
+- depois: "UpdateDatabase -Context BancoContext" (criou o banco no sqlserver)
