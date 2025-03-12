@@ -29,3 +29,7 @@ __Criação do projeto ASP NET MVC__
 - "ConnectionStrings : {}" em appsettings.json
 - no package manager console foi executada a linha: "Add-Migration CriandoTabelaContatos -Context BancoContext" criou a Migration
 - depois: "UpdateDatabase -Context BancoContext" (criou o banco no sqlserver)
+
+## Aula 3
+- implementada a Edição dos contatos (05:25 até 18:50)
+- início da implementação do Delete
